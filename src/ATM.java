@@ -1,7 +1,12 @@
 public class ATM {
+    private long cardNumber;    // ADD THIS
     private double balance;
     private double withdrawalAmount;
     private double depositAmount;
+
+    public long getCardNumber() { return cardNumber; }      // ADD THIS
+    public void setCardNumber(long cardNumber) { this.cardNumber = cardNumber; }  // ADD THIS
+
     public double getBalnce(){
         return balance;
     }
@@ -20,5 +25,4 @@ public class ATM {
     public void setDepositAmount(double depositAmount){
         this.depositAmount=depositAmount;
     }
-
 }
