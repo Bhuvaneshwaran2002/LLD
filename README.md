@@ -17,9 +17,17 @@ A Java-based ATM Management System developed using Object-Oriented Programming c
 - Collections Framework
 - Exception Handling
 
-## Project Structure
-src/
-├── Main.java
-├── ATM.java
-├── Account.java
-└── User.java
+##  Project Structure
+
+```text
+ATM-Management-System/
+│
+├── src/
+│   ├── Main.java
+│   ├── ATM.java
+│   ├── Account.java
+│   └── User.java
+│
+├── README.md
+└── .gitignore
+```
